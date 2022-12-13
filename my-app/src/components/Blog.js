@@ -3,8 +3,8 @@ import React from 'react';
 const Blog = () => {
     return (
         <div className = "container-fluid blog-section border border-dark">
-            <div className ="row blog-row w-auto" id="blog">
-                <div className="col blog-col">
+            <div className ="row blog-row" id="blog">
+                <div className="col blog-col-12">
             <div className="accordion accordion-flush" id="accordionPanelsStayOpenExample">
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="panelsStayOpen-headingOne">
@@ -72,6 +72,7 @@ const Blog = () => {
                                 and/or pull out some sort of diagnostic tool before starting work. I look at most other problems the same way, 
                                 figure out what is wrong and then come up with a plan to repair or replace it. I am also probably slower than most, 
                                 but I am methodical and walk away knowing it was done correctly.
+                            <br></br> 
                             <strong>What methods do you use to help yourself get unstuck?</strong>
                             <br></br> 
                                 I am stubborn and when it comes to getting stuck I have been known to rack my brain for far too long before changing 

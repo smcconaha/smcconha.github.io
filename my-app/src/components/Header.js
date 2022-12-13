@@ -7,7 +7,7 @@ const Header = () => {
         <div className="main-info">
             <h1>Full Stack Web developer</h1>
             <h2>Web development and project management</h2>
-            <Link smooth={true} to="contact" className="btn-main-offer" href='#'>Contact Me</Link>
+            <Link smooth={true} to="contact" className="btn-main-offer">Contact Me</Link>
         </div>
     </div>
   )

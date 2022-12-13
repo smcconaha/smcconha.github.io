@@ -7,7 +7,7 @@ const AboutMe = () => {
         <div className='row'>
             <div className='col-lg-6 col-xm-12'>
                 <div className='photo-wrap mb-5'>
-                    <img className='profile-img'src={profilePic} alt='profile picture of Steven McConaha'/>
+                    <img className='profile-img'src={profilePic} alt='profile of Steven McConaha'/>
                 </div>
             </div>
             <div className='col-lg-6 col-xm-12'>
