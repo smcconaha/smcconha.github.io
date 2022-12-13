@@ -15,19 +15,19 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                    <Link smooth={true} to="home" className="nav-link" aria-current="page" href="#">Home</Link>
+                    <Link smooth={true} to="home" className="nav-link" aria-current="page">Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link smooth={true} to="about"  className="nav-link" href="#">About Me</Link>
+                    <Link smooth={true} to="about"  className="nav-link">About Me</Link>
                 </li>
                 <li className="nav-item">
-                    <Link smooth={true} to="portfolio"  className="nav-link" href="#">Portfolio</Link>
+                    <Link smooth={true} to="portfolio"  className="nav-link">Portfolio</Link>
                 </li>
                 <li className="nav-item">
-                    <Link smooth={true} to="blog"  className="nav-link" href="#">Blog</Link>
+                    <Link smooth={true} to="blog"  className="nav-link">Blog</Link>
                 </li>
                 <li className="nav-item">
-                    <Link smooth={true} to="contact"  className="nav-link" href="#">Contact Me</Link>
+                    <Link smooth={true} to="contact"  className="nav-link">Contact Me</Link>
                 </li>
             </ul>
             </div>

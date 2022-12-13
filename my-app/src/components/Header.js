@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-scroll";
 
 const Header = () => {
   return (
@@ -6,7 +7,7 @@ const Header = () => {
         <div className="main-info">
             <h1>Full Stack Web developer</h1>
             <h2>Web development and project management</h2>
-            <a href="#" className="btn-main-offer">Contact Me</a>
+            <Link smooth={true} to="contact" className="btn-main-offer" href='#'>Contact Me</Link>
         </div>
     </div>
   )

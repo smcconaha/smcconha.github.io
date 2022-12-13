@@ -59,7 +59,7 @@ nav ul li {
 
 .header-wrapper {
   position: relative;
-  background: url(./images/new_background.jpg) no-repeat;
+  background: url(./components/images/new_background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;

@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div className = "container-fluid blog-section border border-dark">
-            <div className ="row blog-row w-auto">
+            <div className ="row blog-row w-auto" id="blog">
                 <div className="col blog-col">
             <div className="accordion accordion-flush" id="accordionPanelsStayOpenExample">
                 <div className="accordion-item">
