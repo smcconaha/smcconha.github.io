@@ -1,9 +1,10 @@
 import React from 'react';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-  
+    const [success, setSuccess] = useState("");
+
     const form = useRef();
     const serviceID = "service_x0lyg6i";
     const templateID = "template_abp8f57";
@@ -19,6 +20,19 @@ const Contact = () => {
               console.log(error.text);
           });
     };
+
+    const onSubmit = (data, r) => {
+        sendEmail(
+            serviceID, 
+            templateID,
+            {
+                name: data.name,
+                phone: data.phone,
+                email: data.email,
+                subject: data.subject,
+                description: data.description
+            })
+    }
 
     return (
     <div id="contact" className='contact'>

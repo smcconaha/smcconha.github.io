@@ -8,7 +8,7 @@ const Blog = () => {
             <div className="accordion accordion-flush" id="accordionPanelsStayOpenExample">
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="panelsStayOpen-headingOne">
-                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    <button className="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                         Blog #1: First Week  (8/26/22)
                     </button>
                     </h2>
