@@ -1,22 +1,28 @@
 import React from 'react';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
-  
     const form = useRef();
     const serviceID = "service_x0lyg6i";
     const templateID = "template_abp8f57";
     const userID = "2f_qcA3H4qZWaeanV";
 
-    const sendEmail = (e) => {
+    const sendEmail = async function (e) {
         e.preventDefault();
     
         emailjs.sendForm(serviceID, templateID, form.current, userID)
           .then((result) => {
               console.log(result.text);
+              if (result.text === "OK") {
+                toast.success("Your message was sent successfully, I will contact you as soon as possible.")
+              } else  {
+                toast.error("Please verify submission and try again.")
+              }
           }, (error) => {
               console.log(error.text);
+              toast.error("Please verify submission and try again.")
           });
     };
 
@@ -68,7 +74,7 @@ const Contact = () => {
                     </div>
                     <div className='col-md-6 col-xs-12'>
                         <textarea
-                            id='messsage'
+                            id='message'
                             type="text"
                             className='form-control'
                             placeholder='Please enter your message here.'
@@ -79,7 +85,8 @@ const Contact = () => {
                         <button className='btn-main-offer contact-btn' type='submit'>contact</button>
                     </div>
                 </div>
-            </form>  
+            </form>
+            <Toaster />  
         </div>
     </div>
   )

@@ -251,7 +251,7 @@ textarea.form-control {
   font-family: "Roboto Condensed", sans-serif !important;
   background-color: #282c34 !important;
   max-width: 46.875rem !important;
-  margin: 0 auto !important ;
+  padding: 0 !important ;
 }
 
 .accordion-body{
@@ -266,20 +266,20 @@ textarea.form-control {
 
 .accordion-item {
   border: 1px solid grey !important;
-  background: #FC9E2D !important;
+  background: #26B9FF !important;
   color: #fff !important;
 }
 
 .accordion-button:not(.collapsed) {
   color: inherit !important;
-  background: #FC9E2D !important;
+  background: #26B9FF!important;
   color: black !important;
 }
 
 .accordion-button:is(.collapsed) {
   color: inherit !important;
   background-color: #282c34 !important;
-  color: #26B9FF !important;
+  color: white !important;
 }
 
 .accordion-button:not(.collapsed)::after {
