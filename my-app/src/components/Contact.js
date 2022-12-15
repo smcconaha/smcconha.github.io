@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
     const form = useRef();
@@ -14,14 +15,14 @@ const Contact = () => {
         emailjs.sendForm(serviceID, templateID, form.current, userID)
           .then((result) => {
               console.log(result.text);
-              if (SpeechRecognitionResultList.text === "OK") {
-                alert(result.text + "Your message was sent successfully, I will contact you as soon as possible.")
+              if (result.text === "OK") {
+                toast.success("Your message was sent successfully, I will contact you as soon as possible.")
               } else  {
-                alert("Sorry, your message was unsuccessful, please try contact me directly through LinkedIn.")
+                toast.error("Please verify submission and try again.")
               }
           }, (error) => {
               console.log(error.text);
-              alert("Failed", error)
+              toast.error("Please verify submission and try again.")
           });
     };
 
@@ -84,7 +85,8 @@ const Contact = () => {
                         <button className='btn-main-offer contact-btn' type='submit'>contact</button>
                     </div>
                 </div>
-            </form>  
+            </form>
+            <Toaster />  
         </div>
     </div>
   )
