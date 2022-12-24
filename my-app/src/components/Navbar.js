@@ -2,13 +2,14 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import {Link} from "react-scroll";
+import logo from '../components/images/Logo.png';
 
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-dark fixed-top">
         <div className="container">
-            {/* <a className="navbar-brand"></a> add logo */}
+            <img className="navbar-brand" src={logo} alt='logo'/>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon={faBars} style={{color: '#fff'}}/>
             </button>
