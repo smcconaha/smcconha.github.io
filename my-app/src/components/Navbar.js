@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-dark fixed-top">
         <div className="container">
-            <img className="navbar-brand" src={logo} alt='logo'/>
+            <img className="navbar-brand" src={logo} alt='logo' width="100" height="50"/>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon={faBars} style={{color: '#fff'}}/>
             </button>
