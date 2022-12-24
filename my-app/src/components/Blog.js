@@ -451,6 +451,40 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
+                <div className="accordion-item">
+                    <h2 className="accordion-header" id="panelsStayOpen-headingTwelve">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwelve" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwelve">
+                        Blog #12: Frameworks and Libraries (11/11/22)
+                    </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwelve" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwelve">
+                        <div className="accordion-body">
+                            <strong>What are you struggling with the most in the Tech Stack so far and why?</strong>
+                            <br></br> 
+                                I think the thing that I have struggles with the most by far is React.  At this point I understand the interaction
+                                between components and the various imports but I need to brush up on props.  I have a basic understanding but would
+                                like to become more familiar with their uses.
+                            <br></br> 
+                            <strong>What companies or people would you like to hear talk during a Bootcamp lunch and learn?</strong>
+                            <br></br> 
+                                I would like to hear from a company that does cybersecurity.  In my previous profession, cybersecurity
+                                was paramount and I have always wanted to learn more.  It would be interesting to hear more about the work environment
+                                and how someone could pursue a career in the industry.
+                            <br></br> 
+                            <strong>After having built your first full-stack application, what things in your repertoire are a sticking point for 
+                                you? Were you able to reconnect your React Restaurant to your Backend Bistro code? If so, what was that like, and 
+                                if not, what hurdles did you need to jump?
+                            </strong>
+                            <br></br> 
+                                For this exercise the sticking point for me was getting the API to provide the data in a format that I could then
+                                feed into my React restaurant seemlessly.  I was able to complete all steps until that point with no problems and
+                                even retrieve a response in a readable format.  I was able to connect my React restaraunt to the backend bistro code
+                                but I did need to get some help in order to do so.  The hurdles that I faced were trying to get too deep of an 
+                                understanding of everything that Django was doing and how it accomplished it.  There are times when you need to put
+                                trust in the process and I had a hard time trusting Django this week.
+                        </div>
+                    </div>
+                </div>
             </div>
             </div>
             </div>
