@@ -554,6 +554,33 @@ const Blog = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingSixteen">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeventeen" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeventeen">
+                                Blog #17: 2023 Resolutions (01/02/23)
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSeventeen" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeventeen">
+                                <div className="accordion-body">
+                                    <strong>Do have any resolutions for the new year?</strong>
+                                    <br></br> 
+                                    Some of my resolutions include brushing up on advanced Javascript concepts, learning C#, getting a job with my nearly 
+                                    acquired web development skills, and getting a mentor.  The last half of 2022 was learning intensive and I am determined to 
+                                    continue that learning in 2023.  I also intend to exercise and meditate more often.
+                                    <br></br> 
+                                    <strong>Is there anything that you are excited to learn about in the new year?</strong>
+                                    <br></br> 
+                                    As of right now I am excited to strengthen my understanding of concepts learned during Awesome Inc.s bootcamp and also dabbling 
+                                    in cyber security.  I know it will take years to master anything but I strive to fully understand things that I am passionate 
+                                    about.  
+                                    <br></br>
+                                    <strong>How can you be of service to others this year?</strong>
+                                    <br></br> 
+                                        I would love to become skilled enough in programming to assist others that are either just starting their journeys or even 
+                                        considering attending any web development bootcamp.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
