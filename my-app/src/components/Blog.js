@@ -459,23 +459,19 @@ const Blog = () => {
                     </h2>
                     <div id="panelsStayOpen-collapseThirteen" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThirteen">
                         <div className="accordion-body">
-                            <strong>What has the first week after Awesome Inc Bootcamp been like?</strong>
+                            <strong>Describe Agile Development or a specific ceremony (stand up, retro, sprints, etc.)</strong>
                             <br></br> 
-                                The first week following bootcamp has been rather busy with holiday travels so far.  I did take the time to learn how to deploy 
-                                my blog in React on GitHub pages, complete a few styling changes, and do some job searching between my travels.  I am really excited
-                                to jump into the 30-60-90 day plan and polish up on concepts that need reinforcing.  During this time I also decided that I wanted to 
-                                learn C#, though this is in actuality my 90 day goal.
+                                Agile Development is essentially adaptation and creation in response to change.  It involves thinking through the problem
+                                or task at hand and determining how to proceed.  I found the concept of incremental development particularly interesting.
+                                At first I did not understand the usefulness of utilizing vertical slices to make small changes that are visually functional
+                                to a user.  In my case that has meant creating just enough of the back end and front end, in most cases, in response to a 
+                                user story.
                             <br></br> 
-                            <strong>What is your motivation moving forward?</strong>
+                            <strong>Convince someone who does not use frameworks why using a framework is beneficial. (Bootstrap, React, Django, or DRF)</strong>
                             <br></br> 
-                                This is a question that I have been asking myself a lot lately.  I think my motivation to find a career that is both engaging and
-                                also provides a creative outlet is still the driving force.  But I also realize that I have poured so much of myself into the process
-                                of learning how to code that I cannot allow myself to fail.  I want to be the best at whatever I do and in this case it is continuous
-                                learning, networking, and seeking the right job for me.  
-                            <br></br> 
-                                I think the thing that makes this field so intimidating at times is knowing just how many ways there are to do a single task
-                                and realizing that your learning should never stop.  But these things are also very appealing and give me the motivation to 
-                                continue bettering myself.
+                                Frameworks are useful for accomplishing tasks with less code.  At first I was not a fan of Bootstrap but eventually I came
+                                to find that I was able to accomplish so much with a fairly small amount of code.  Then I would view my code in devtools and
+                                see all of the HTML elements and CSS that bootstrap was able to create with only a few classes.
                         </div>
                     </div>
                 <div className="accordion-item">
