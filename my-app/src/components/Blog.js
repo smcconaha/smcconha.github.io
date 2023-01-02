@@ -454,10 +454,91 @@ const Blog = () => {
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="panelsStayOpen-headingThirteen">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThirteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseThirteen">
-                        Blog #13: Christmas and Coding (12/24/22)
+                        Blog #13: Caution Finish Line Approaching (11/25/22)
                     </button>
                     </h2>
-                    <div id="panelsStayOpen-collapseTwelve" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwelve">
+                    <div id="panelsStayOpen-collapseThirteen" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThirteen">
+                        <div className="accordion-body">
+                            <strong>What has the first week after Awesome Inc Bootcamp been like?</strong>
+                            <br></br> 
+                                The first week following bootcamp has been rather busy with holiday travels so far.  I did take the time to learn how to deploy 
+                                my blog in React on GitHub pages, complete a few styling changes, and do some job searching between my travels.  I am really excited
+                                to jump into the 30-60-90 day plan and polish up on concepts that need reinforcing.  During this time I also decided that I wanted to 
+                                learn C#, though this is in actuality my 90 day goal.
+                            <br></br> 
+                            <strong>What is your motivation moving forward?</strong>
+                            <br></br> 
+                                This is a question that I have been asking myself a lot lately.  I think my motivation to find a career that is both engaging and
+                                also provides a creative outlet is still the driving force.  But I also realize that I have poured so much of myself into the process
+                                of learning how to code that I cannot allow myself to fail.  I want to be the best at whatever I do and in this case it is continuous
+                                learning, networking, and seeking the right job for me.  
+                            <br></br> 
+                                I think the thing that makes this field so intimidating at times is knowing just how many ways there are to do a single task
+                                and realizing that your learning should never stop.  But these things are also very appealing and give me the motivation to 
+                                continue bettering myself.
+                        </div>
+                    </div>
+                <div className="accordion-item">
+                    <h2 className="accordion-header" id="panelsStayOpen-headingFoureen">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFourteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseFourteen">
+                        Blog #14: Final Project Begins (12/03/22)
+                    </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFourteen" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFourteen">
+                        <div className="accordion-body">
+                            <strong>What has the first week after Awesome Inc Bootcamp been like?</strong>
+                            <br></br> 
+                                The first week following bootcamp has been rather busy with holiday travels so far.  I did take the time to learn how to deploy 
+                                my blog in React on GitHub pages, complete a few styling changes, and do some job searching between my travels.  I am really excited
+                                to jump into the 30-60-90 day plan and polish up on concepts that need reinforcing.  During this time I also decided that I wanted to 
+                                learn C#, though this is in actuality my 90 day goal.
+                            <br></br> 
+                            <strong>What is your motivation moving forward?</strong>
+                            <br></br> 
+                                This is a question that I have been asking myself a lot lately.  I think my motivation to find a career that is both engaging and
+                                also provides a creative outlet is still the driving force.  But I also realize that I have poured so much of myself into the process
+                                of learning how to code that I cannot allow myself to fail.  I want to be the best at whatever I do and in this case it is continuous
+                                learning, networking, and seeking the right job for me.  
+                            <br></br> 
+                                I think the thing that makes this field so intimidating at times is knowing just how many ways there are to do a single task
+                                and realizing that your learning should never stop.  But these things are also very appealing and give me the motivation to 
+                                continue bettering myself.
+                        </div>
+                    </div>
+                <div className="accordion-item">
+                    <h2 className="accordion-header" id="panelsStayOpen-headingFifteen">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFifteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseFifteen">
+                        Blog #15: Final Project Nearing Completion (12/10/22)
+                    </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFifteen" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFifteen">
+                        <div className="accordion-body">
+                            <strong>What has the first week after Awesome Inc Bootcamp been like?</strong>
+                            <br></br> 
+                                The first week following bootcamp has been rather busy with holiday travels so far.  I did take the time to learn how to deploy 
+                                my blog in React on GitHub pages, complete a few styling changes, and do some job searching between my travels.  I am really excited
+                                to jump into the 30-60-90 day plan and polish up on concepts that need reinforcing.  During this time I also decided that I wanted to 
+                                learn C#, though this is in actuality my 90 day goal.
+                            <br></br> 
+                            <strong>What is your motivation moving forward?</strong>
+                            <br></br> 
+                                This is a question that I have been asking myself a lot lately.  I think my motivation to find a career that is both engaging and
+                                also provides a creative outlet is still the driving force.  But I also realize that I have poured so much of myself into the process
+                                of learning how to code that I cannot allow myself to fail.  I want to be the best at whatever I do and in this case it is continuous
+                                learning, networking, and seeking the right job for me.  
+                            <br></br> 
+                                I think the thing that makes this field so intimidating at times is knowing just how many ways there are to do a single task
+                                and realizing that your learning should never stop.  But these things are also very appealing and give me the motivation to 
+                                continue bettering myself.
+                        </div>
+                    </div>
+                <div className="accordion-item">
+                    <h2 className="accordion-header" id="panelsStayOpen-headingSixteen">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSixteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseSixteen">
+                        Blog #16: Christmas and Coding (12/24/22)
+                    </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSixteen" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSixteen">
                         <div className="accordion-body">
                             <strong>What has the first week after Awesome Inc Bootcamp been like?</strong>
                             <br></br> 
