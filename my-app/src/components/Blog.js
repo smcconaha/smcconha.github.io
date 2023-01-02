@@ -482,23 +482,22 @@ const Blog = () => {
                     </h2>
                     <div id="panelsStayOpen-collapseFourteen" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFourteen">
                         <div className="accordion-body">
-                            <strong>What has the first week after Awesome Inc Bootcamp been like?</strong>
+                            <strong>After making it through the tech stack, where do you think your current gaps are?</strong>
                             <br></br> 
-                                The first week following bootcamp has been rather busy with holiday travels so far.  I did take the time to learn how to deploy 
-                                my blog in React on GitHub pages, complete a few styling changes, and do some job searching between my travels.  I am really excited
-                                to jump into the 30-60-90 day plan and polish up on concepts that need reinforcing.  During this time I also decided that I wanted to 
-                                learn C#, though this is in actuality my 90 day goal.
+                                My curreny gap is mostly in React.  I understand many of the concepts but I look forward to brushing up on React and filling
+                                the gaps in my knowledge.  I am not exactly sure why I struggle with React but I believe it may be associated with some of the
+                                advanced javascript concepts such as callback functions.
                             <br></br> 
-                            <strong>What is your motivation moving forward?</strong>
+                            <strong>Without considering the complexity, what is a custom hook you would write to help you in any aspect of web development 
+                            (or something else...)</strong>
                             <br></br> 
-                                This is a question that I have been asking myself a lot lately.  I think my motivation to find a career that is both engaging and
-                                also provides a creative outlet is still the driving force.  But I also realize that I have poured so much of myself into the process
-                                of learning how to code that I cannot allow myself to fail.  I want to be the best at whatever I do and in this case it is continuous
-                                learning, networking, and seeking the right job for me.  
+                                Thinking in terms of my project, I am going to need to write a hook to accept a user's zip code input and updates state based
+                                upon that change.  In other words I will need to rerender the page based on the user's input.
+                            <strong>What is your opinion on documentation? (MVP, Stories, Points, Markdown, Personas, Readme, Pseudocode, etc.)</strong>
                             <br></br> 
-                                I think the thing that makes this field so intimidating at times is knowing just how many ways there are to do a single task
-                                and realizing that your learning should never stop.  But these things are also very appealing and give me the motivation to 
-                                continue bettering myself.
+                                I think documentation is exrtemely important and I would love to have more time to focus on pseudocode, user stories, MVP, and
+                                every aspect of my project.  Documentation give you a roadmap and allows you to track progress so how would you know where you
+                                where going or when you would get there without it?
                         </div>
                     </div>
                 <div className="accordion-item">
