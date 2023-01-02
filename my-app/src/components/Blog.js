@@ -508,23 +508,19 @@ const Blog = () => {
                     </h2>
                     <div id="panelsStayOpen-collapseFifteen" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFifteen">
                         <div className="accordion-body">
-                            <strong>What has the first week after Awesome Inc Bootcamp been like?</strong>
+                            <strong>What was your experience like overall in the Bootcamp?</strong>
                             <br></br> 
-                                The first week following bootcamp has been rather busy with holiday travels so far.  I did take the time to learn how to deploy 
-                                my blog in React on GitHub pages, complete a few styling changes, and do some job searching between my travels.  I am really excited
-                                to jump into the 30-60-90 day plan and polish up on concepts that need reinforcing.  During this time I also decided that I wanted to 
-                                learn C#, though this is in actuality my 90 day goal.
+                                Overall I can honestly say that this has been the most challenging thing I have done in my life...even harder that discrete mathematics
+                                in college :).  That being said, it is amazing to look back at what I knew when I started and what I know now.  I have learned so much
+                                at a fast pace and I am really proud of that.
                             <br></br> 
-                            <strong>What is your motivation moving forward?</strong>
+                            <strong>Take a look back at your blog posts over the last 16 weeks. Where do you see yourself growing the most? What is one thing that pops 
+                            out as you being misinformed or that you think is funny compared to what you know now?</strong>
                             <br></br> 
-                                This is a question that I have been asking myself a lot lately.  I think my motivation to find a career that is both engaging and
-                                also provides a creative outlet is still the driving force.  But I also realize that I have poured so much of myself into the process
-                                of learning how to code that I cannot allow myself to fail.  I want to be the best at whatever I do and in this case it is continuous
-                                learning, networking, and seeking the right job for me.  
-                            <br></br> 
-                                I think the thing that makes this field so intimidating at times is knowing just how many ways there are to do a single task
-                                and realizing that your learning should never stop.  But these things are also very appealing and give me the motivation to 
-                                continue bettering myself.
+                                I have grown the most in learning to read documentation.  When I started this program I was extremely intimidated by the long MDN
+                                explanations and documentation but I have learned to focus in on what I am looking for.  I was also of the opinion when I started
+                                that I needed to understand and come up with my own unique solutions but that is not always the case.  There are times when the wheel
+                                has been created well and while you need to understand how it works, you may not need to recreate it.
                         </div>
                     </div>
                 <div className="accordion-item">
