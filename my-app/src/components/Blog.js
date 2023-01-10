@@ -581,6 +581,36 @@ const Blog = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingSixteen">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEighteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseEighteen">
+                                Blog #18: Artificial Intelligence, Should I Be Concerned? (01/10/23)
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseEighteen" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEighteen">
+                                <div className="accordion-body">
+                                    <br></br> 
+                                    When I think of articial intelligence (AI) my mind always drifts towards movies and stories of robots bluing the line between man and machine.  
+                                    Technology that pushes the envelope can lead to great entertainment.  While to many this type of AI may seem like an over embelishment by Hollywood, 
+                                    we can look at many current day examples that beg to differ.
+                                    <br></br> 
+                                    Months ago I remember seeing the headlines about a Google Engineer that was put on leave for voicing his concerns over Google's chatbot, LaMDA, 
+                                    potentially reaching sentient state.  What would you do if a computer spoke like a human and even declared that it had a soul?  Well, that is exactly 
+                                    the delema that Blake Lemoine encountered.  This is just one example and there are more examples of AI pushing the bounds of what we thought was possible.
+                                    <br></br> 
+                                    Recently there has been a lot of discussion of a large language model (LLM) chatbot called ChatGPT.  You can easily find examples of how ChatGPT can write 
+                                    entire articles with precise and eloquent language.  It can also write code which brings about the question, are you a programmer if you use AI to do so?  That 
+                                    is a question for another blog but these are just a few exampled of it's power.  ChatGPT has also been trained using Reinforced Learning with Human Feedback which 
+                                    means that it can comprehend not only a question but also the intent behind that question.  This  
+                                    <a
+                                        href='https://research.checkpoint.com/2022/opwnai-ai-that-can-save-the-day-or-hack-it-away/?embedable=true'> article 
+                                    </a> from Check Point Research shows just how easily anyone can create a phishing email to generate malicious code using ChatGPT.  So going back to 
+                                    the original question of "should i be concerned?", well the answer is yes and no.  We need to be aware of the capabilities of this technology and more vigilant 
+                                    than ever because this is a new tool for actors with ill intent.  However, it is also a tool for cyber security professionals because ChatGPT can also be used 
+                                    to develope defense strategies.   
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
