@@ -555,7 +555,7 @@ const Blog = () => {
                             </div>
                         </div>
                         <div className="accordion-item">
-                            <h2 className="accordion-header" id="panelsStayOpen-headingSixteen">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingSeventeen">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeventeen" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeventeen">
                                 Blog #17: 2023 Resolutions (01/02/23)
                             </button>
@@ -582,7 +582,7 @@ const Blog = () => {
                             </div>
                         </div>
                         <div className="accordion-item">
-                            <h2 className="accordion-header" id="panelsStayOpen-headingSixteen">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingEighteen">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEighteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseEighteen">
                                 Blog #18: Artificial Intelligence, Should I Be Concerned? (01/10/23)
                             </button>
@@ -608,6 +608,28 @@ const Blog = () => {
                                     the original question of "should i be concerned?", well the answer is yes and no.  We need to be aware of the capabilities of this technology and more vigilant 
                                     than ever because this is a new tool for actors with ill intent.  However, it is also a tool for cyber security professionals because ChatGPT can also be used 
                                     to develope defense strategies.   
+                                </div>
+                            </div>
+                        </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingNineteen">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNineteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseNineteen">
+                                Blog #19: Internet of Things To The Rescue!  (01/13/23)
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseNineteen" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNineteen">
+                                <div className="accordion-body">
+                                    <br></br> 
+                                    Recently I have been researching the Internet of Things (IoT) and I am starting to see what all of the excitement is about.  IoT has the potential to revolutionize 
+                                    how devices communicate and exchange data. By connecting devices to the internet and using communication networks, IoT allows devices to talk to each other and gather 
+                                    information in real-time. This can help increase efficiency and accuracy in many aspects of our lives, from home products to industrial processes.
+                                    <br></br> 
+                                    The key to IoT is low-cost, low-power sensors that enable devices to detect and interact with the environment. These sensors are made up of a variety of technologies, 
+                                    such as GPS, accelerometers, RFID, and temperature sensors. They allow devices to collect data from the environment, such as temperature readings or location information, 
+                                    and use that data to perform a desired task. For example, an IoT-enabled thermostat can detect when a room is too hot or too cold and adjust the temperature accordingly.
+                                    <br></br> 
+                                    IoT technology is quickly becoming more accessible and cost-effective, which means more businesses and consumers are taking notice.  I am even debating on buying an Arduino 
+                                    and getting in on the action, now I just need to find something to automate.
                                 </div>
                             </div>
                         </div>
