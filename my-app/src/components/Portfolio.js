@@ -2,6 +2,9 @@ import React from 'react';
 import plants from './../components/images/plantPeople.png';
 import restaurant from './../components/images/restaurant.png';
 import jams from './../components/images/djangoJams.png';
+import clock from './../components/images/alarm_clock.png';
+import hero from './../components/images/facebook_hero.png';
+import reminder from './../components/images/reminder.png';
 
 
 const Portfolio = () => {
@@ -57,7 +60,7 @@ const Portfolio = () => {
         </div>
         <div className="card-group">
           <div className="card project-card m-2">
-            <img src={plants} className="portfolio-img card-img-top" alt="To-Do List Website" />
+            <img src={reminder} className="portfolio-img card-img-top" alt="To-Do List Website" />
             <div className="card-body">
               <h5 className="card-title">React To-Do List</h5>
               <p className="card-text">
@@ -70,7 +73,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="card project-card m-2">
-            <img src={jams} className="portfolio-img card-img-top" alt="Alarm Clock Website" />
+            <img src={clock} className="portfolio-img card-img-top" alt="Alarm Clock Website" />
             <div className="card-body">
               <h5 className="card-title">Alarm Clock</h5>
               <p className="card-text">
@@ -83,9 +86,9 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="card project-card m-2">
-            <img src={restaurant} className="portfolio-img card-img-top" alt="Facebookhero Backend" />
+            <img src={hero} className="portfolio-img card-img-top" alt="Facebookhero Backend" />
             <div className="card-body">
-              <h5 className="card-title">Heros</h5>
+              <h5 className="card-title">Heroes</h5>
               <p className="card-text">
                 This is the backend for Facebookhero, Facebook for Superheroes, and it leverages Python to allow the user to 
                 interact with a shell script to create, read, update and delete superhero details.
