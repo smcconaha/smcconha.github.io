@@ -633,6 +633,26 @@ const Blog = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingTwenty">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwenty" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwenty">
+                                Blog #20: React Wizardry  (01/20/23)
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwenty" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwenty">
+                                <div className="accordion-body">
+                                    <br></br> 
+                                        Since working in React it seems like I am always learning something new.  I remember when props seemed magical and then there were hooks, but now I hear about React portals.
+                                    <br></br> 
+                                        If you create a modal, you most likely want it to appear on top of all other elements and that is one example where portals come in handy.  A portal could be used to render the 
+                                        modal separately from the parent component.
+                                    <br></br> 
+                                        Documentation states that “portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.”  I think a key 
+                                        takeaway is that you can render elements outside of the React hierarchy tree and still preserve the parent-child relationship.  I am still digging into this advanced concept and 
+                                        hope to find uses for it soon!
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
