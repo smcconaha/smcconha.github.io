@@ -653,6 +653,28 @@ const Blog = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingTwentyOne">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwentyOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwentyOne">
+                                Blog #20: React Wizardry  (01/20/23)
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwentyOne" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwentyOne">
+                                <div className="accordion-body">
+                                    <br></br> 
+                                        I write this, speaking mainly from the lens of Javascript and specifically class-based Object-oriented programming (OOP). So what is OOP?  It is a programming paradigm that involves 
+                                        modeling a system as a collection of objects. Each object consists of properties and methods, and those objects can also interact with other code while retaining their own private 
+                                        internal state. OOP also involves classes, which are basically templates for creating those object instances.
+                                    <br></br> 
+                                        I found constructors to be particularly interesting and simply put, constructors are special class methods that are used to create new objects. I could also go down a rabbit hole of 
+                                        discussing prototypes or the prototype chain, which is also a fascinating subject. Additionally, OOP includes concepts such as superclass-subclass relationships and how we can utilize 
+                                        inheritance as well as overriding methods along the way.
+                                    <br></br> 
+                                        I initially learned about these concepts while completing Awesome Inc.’s Web Development Bootcamp but I wanted to re-cover those concepts with fresh eyes. It’s amazing how many little 
+                                        details you miss the first time and all of the connections you see after revisiting a subject like OOP.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
