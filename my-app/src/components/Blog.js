@@ -656,7 +656,7 @@ const Blog = () => {
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="panelsStayOpen-headingTwentyOne">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwentyOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwentyOne">
-                                Blog #20: React Wizardry  (01/20/23)
+                                Blog #21: OOP Reflection  (01/27/23)
                             </button>
                             </h2>
                             <div id="panelsStayOpen-collapseTwentyOne" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwentyOne">
