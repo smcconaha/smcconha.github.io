@@ -1,4 +1,3 @@
-@@ -3,8 +3,8 @@
 
  <div>
   <a href="https://github.com/smcconaha">
@@ -7,3 +6,7 @@
 </div>
 
  ## Skills
+Git, HTML/CSS
+Javascript, Bootstrap, React
+Python, SQL, Django
+Agile Development, OOP
