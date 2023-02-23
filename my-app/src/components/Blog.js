@@ -675,6 +675,53 @@ const Blog = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingTwentyTwo">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwentyTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwentyTwo">
+                                Blog #22: I Don't Know...Yet  (02/23/23)
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwentyTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwentyTwo">
+                                <div className="accordion-body">
+                                    <br></br> 
+                                    At times I feel anxious at the thought of not fully understanding a concept.  In a world that values knowledge and expertise, 
+                                    admitting that you don't know something can be difficult. However, recognizing the importance of saying "I don't know yet" 
+                                    and understanding that it's impossible to know everything can be a valuable skill. I am going to try to explain why ignorance 
+                                    shouldn’t put your stomach in knots and how it can result in professional growth.
+                                    <br></br> 
+                                    Honesty builds trust
+                                    When someone admits that they don't know something, it can be seen as a sign of honesty and humility. We are all human and 
+                                    allowing yourself to be vulnerable and admit to someone that you need help can strengthen a relationship. This can be particularly 
+                                    important in professional settings, where honesty and trust can be essential for building strong relationships with clients, 
+                                    colleagues, and other stakeholders.
+                                    <br></br>
+                                    It encourages learning
+                                    Including the all important “yet” after “I don’t know” is the first step towards learning.  It is all about building the habit 
+                                    and encouraging yourself to seek out answers and explore new ideas. This can be particularly important in fields that are constantly 
+                                    evolving, like I don’t know…Web Development.
+                                    <br></br>
+                                    It promotes critical thinking
+                                    If I don’t know this then what do I know?  Acknowledging that you don't know something can be an opportunity to think critically 
+                                    about what you do know. When you're forced to confront your own limitations, you're more likely to start questioning, seek out 
+                                    evidence, and look at things more closely. Let’s face it, this world has quite a bit of misinformation and we are capable of 
+                                    cutting through to the truth.
+                                    <br></br>
+                                    It can result in better decisions
+                                    When you're willing to admit that you don't know everything, you're more likely to seek out input from others. By seeking out 
+                                    diverse perspectives and considering other viewpoints, you're more likely to make decisions that take into account a range of factors.
+                                    <br></br>
+                                    It will likely reduce stress
+                                    Yeah, I have been there, you do your best to drink from the firehouse and become an expert but that is overwhelming and stressful. 
+                                    By acknowledging that it's impossible to know everything, you're giving yourself permission to relax and focus on what you do know. 
+                                    This can be particularly important for individuals who struggle with anxiety or who are prone to perfectionism.
+                                    <br></br>
+                                    In conclusion, simply saying "I don't know yet" is a skill meaning that it requires work but it can be so beneficial. So don’t be 
+                                    ashamed to admit what you don’t know because you are building trust with others, promoting learning and critical thinking, making 
+                                    better decisions, and improving your mental health. It’s okay to take a deep breath, acknowledge ignorance, and embrace the 
+                                    opportunities that unfold.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
