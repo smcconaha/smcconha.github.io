@@ -99,18 +99,39 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="card-group">
-        <div className="card project-card m-2">
-            <img src={reminder} className="portfolio-img card-img-top" alt="Rick and Morty React" />
+          <div className="card project-card m-2">
+              <img src={rickMorty} className="portfolio-img card-img-top" alt="Rick and Morty React" />
+              <div className="card-body">
+                <h5 className="card-title">Rick and Morty React API</h5>
+                <p className="card-text">
+                  A fun project based on the Rick and Morty tv show, leveraging 
+                  <a href="https://rickandmortyapi.com/">this</a>
+                  popular API.  It was built using React, Javascript, Bootstrap, and a little CSS.
+                  I used hooks for page state manegementand which allows you to go through 42 pages of character.  I plan to add filters
+                  in the future and a search input bar.
+                </p>
+                <a href="https://smcconaha.github.io/rick_and_morty_api/"><small className="text-muted">Web link/Rick and Morty React API</small></a>
+              </div>
+            </div>
+            <div className="card project-card m-2">
+            <img src="#" className="portfolio-img card-img-top" alt="Alarm Clock Website" />
             <div className="card-body">
-              <h5 className="card-title">Rick and Morty React API</h5>
+              <h5 className="card-title">Future Project</h5>
               <p className="card-text">
-                A fun project based on the Rick and Morty tv show, leveraging 
-                <a href="https://rickandmortyapi.com/">this</a>
-                 popular API.  It was built using React, Javascript, Bootstrap, and a little CSS.
-                I used hooks for page state manegementand which allows you to go through 42 pages of character.  I plan to add filters
-                in the future and a search input bar.
+                Check back here for a future project!
               </p>
-              <a href="https://smcconaha.github.io/rick_and_morty_api/"><small className="text-muted">Web link/Rick and Morty React API</small></a>
+              <a href="#/"><small className="text-muted">Web link/Future Project</small></a>
+            </div>
+          </div>
+          <div className="card project-card m-2">
+            <img src="#" className="portfolio-img card-img-top" alt="Facebookhero Backend" />
+            <div className="card-body">
+              <h5 className="card-title">Future Project</h5>
+              <p className="card-text">
+                Check back here for a future project!
+              </p>
+              <a href="#"><small className="text-muted">Web link/Future Project</small></a>
+              <br/>
             </div>
           </div>
         </div>
