@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.000a3b41.css",
-    "main.js": "/static/js/main.6df47e8e.js",
+    "main.js": "/static/js/main.1db44882.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.ff454a4fbed93ae0ee1d.jpg",
     "static/media/reminder.png": "/static/media/reminder.f9b0447a6d197e7ca3e4.png",
     "static/media/new_background.jpg": "/static/media/new_background.99c91a7096454eecfc8c.jpg",
     "static/media/plantPeople.png": "/static/media/plantPeople.b384d95c152afd69e303.png",
     "static/media/alarm_clock.png": "/static/media/alarm_clock.5a2787f6cc90b3da5b0d.png",
+    "static/media/under_construction.png": "/static/media/under_construction.e8260fd885d0a552ac35.png",
     "static/media/facebook_hero.png": "/static/media/facebook_hero.a84e2d2b723bd3487e99.png",
     "static/media/rick_morty.png": "/static/media/rick_morty.282ca9836becd798bba7.png",
     "static/media/djangoJams.png": "/static/media/djangoJams.5f346b6ede0895ce266e.png",
@@ -15,11 +16,11 @@
     "static/media/Logo.png": "/static/media/Logo.ad76d32fde7f3eb22e2a.png",
     "index.html": "/index.html",
     "main.000a3b41.css.map": "/static/css/main.000a3b41.css.map",
-    "main.6df47e8e.js.map": "/static/js/main.6df47e8e.js.map",
+    "main.1db44882.js.map": "/static/js/main.1db44882.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.000a3b41.css",
-    "static/js/main.6df47e8e.js"
+    "static/js/main.1db44882.js"
   ]
 }
