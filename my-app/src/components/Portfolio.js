@@ -6,6 +6,7 @@ import clock from './../components/images/alarm_clock.png';
 import hero from './../components/images/facebook_hero.png';
 import reminder from './../components/images/reminder.png';
 import rickMorty from './../components/images/rick_morty.png';
+import construction from './../components/images/under_construction.png';
 
 const Portfolio = () => {
   return (
@@ -104,9 +105,9 @@ const Portfolio = () => {
               <div className="card-body">
                 <h5 className="card-title">Rick and Morty React API</h5>
                 <p className="card-text">
-                  A fun project based on the Rick and Morty tv show, leveraging 
-                  <a href="https://rickandmortyapi.com/">this</a>
-                  popular API.  It was built using React, Javascript, Bootstrap, and a little CSS.
+                  A fun project based on the Rick and Morty tv show, leveraging the {' '} 
+                  <a href="https://rickandmortyapi.com/">rickandmprtyapi</a>
+                  {' '} API.  It was built using React, Javascript, Bootstrap, and a little CSS.
                   I used hooks for page state manegementand which allows you to go through 42 pages of character.  I plan to add filters
                   in the future and a search input bar.
                 </p>
@@ -114,23 +115,23 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="card project-card m-2">
-            <img src="#" className="portfolio-img card-img-top" alt="Alarm Clock Website" />
+            <img src={construction} className="portfolio-img card-img-top" alt="Alarm Clock Website" />
             <div className="card-body">
               <h5 className="card-title">Future Project</h5>
               <p className="card-text">
                 Check back here for a future project!
               </p>
-              <a href="#/"><small className="text-muted">Web link/Future Project</small></a>
+              {/* <a href="#/"><small className="text-muted">Web link/Future Project</small></a> */}
             </div>
           </div>
           <div className="card project-card m-2">
-            <img src="#" className="portfolio-img card-img-top" alt="Facebookhero Backend" />
+            <img src={construction} className="portfolio-img card-img-top" alt="Facebookhero Backend" />
             <div className="card-body">
               <h5 className="card-title">Future Project</h5>
               <p className="card-text">
                 Check back here for a future project!
               </p>
-              <a href="#"><small className="text-muted">Web link/Future Project</small></a>
+              {/* <a href="#"><small className="text-muted">Web link/Future Project</small></a> */}
               <br/>
             </div>
           </div>
